@@ -1,0 +1,32 @@
+# Ignore build output directories
+/build/
+/*.bin
+/*.elf
+/*.map
+
+# Ignore IDF build output
+/sdkconfig
+/sdkconfig.old
+/CMakeLists.txt
+/Makefile
+
+# Ignore object files and libraries
+*.o
+*.a
+*.d
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore macOS Finder attributes
+Icon?
+._*
+
+# Ignore macOS resource fork files
+.Spotlight-V100
+.Trashes
